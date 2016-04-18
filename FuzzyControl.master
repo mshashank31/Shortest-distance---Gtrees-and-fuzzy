@@ -1,0 +1,175 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FuzzyControl.master.cs" Inherits="FuzzyControl" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Blue Arc Theme - Free Website Template</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<!--
+Template 2040 Blue Arc
+http://www.tooplate.com/view/2040-blue-arc
+-->
+<link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+        .auto-style1 {
+            width: 424px
+        }
+    </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="tooplate_wrapper">
+    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+    <div id="tooplate_menu">
+        <ul>
+            <li><a href="Home.aspx" class="current">Home</a></li>
+            <li><a href="Map.aspx">Control Center</a></li>
+            <li><a href="LoginPage.aspx">Login</a></li>
+            <li><a href="SignUpPage.aspx">Register Here</a></li>
+            <li class="last"><a href="Addressbar.aspx">Gmap</a></li>
+        </ul>    	
+    </div> <!-- end of tooplate_menu -->
+	
+  <div id="tooplate_header">
+    
+    	<div id="site_title"><h1 align="Center"> </h1></div>
+        
+  </div> <!-- end of header -->
+    
+    <div id="tooplate_middle">
+    	<div id="mid_title"> <strong> </strong><strong> </strong></div>
+        <p></p>
+    </div> 
+    <div id="tooplate_main">
+      <div class="col_w960 col_last">
+        <div class="col_w450 float_r">
+                    <h2>&nbsp;</h2>
+                    &nbsp;</div>
+            	<div class="cleaner">
+                    <table style="width:100%;">
+                        <tr>
+                            <td class="auto-style1"><%--<asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.65em"
+                PathSeparator=">" Width="464px">
+                <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                <CurrentNodeStyle ForeColor="#333333" />
+                <NodeStyle Font-Bold="True" ForeColor="#990000" />
+                <RootNodeStyle Font-Bold="True" ForeColor="#FF8000" />
+            </asp:SiteMapPath>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" /></td>
+                            <td colspan="2">--%><%--<asp:Menu ID="Menu2" runat="server" BackColor="White" DynamicHorizontalOffset="5"
+                Font-Names="Verdana" Font-Size="0.8em" ForeColor="#7C6F57" OnMenuItemClick="Menu1_MenuItemClick"
+                Orientation="Horizontal" PathSeparator="|" StaticSubMenuIndent="25px" Style="z-index: 100;
+                left: 5px; top: -38px; background-color: white" Width="338px">
+                <StaticSelectedStyle BackColor="#5D7B9D" />
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                <DynamicMenuStyle BackColor="#F7F6F3" />
+                <DynamicSelectedStyle BackColor="#5D7B9D" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                <Items>
+                    <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Home.aspx">
+                        <asp:MenuItem Selectable="False"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Route" Value="Route" NavigateUrl="~/Home.aspx">
+                        <asp:MenuItem Selectable="False"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Control Centre" Value="Control" NavigateUrl="~/Map.aspx">
+                        <asp:MenuItem Selectable="False"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Addressbar.aspx" Text="MAP" Value="MAP"></asp:MenuItem>
+                </Items>
+            </asp:Menu>--%></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                            </asp:contentplaceholder></td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style1">&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><asp:contentplaceholder id="Contentplaceholder2" runat="server">
+                                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                                            </asp:contentplaceholder></td>
+                        </tr>
+                    </table>
+          </div>
+            </div>
+        
+    </div> <!-- end of main -->
+    
+</div> <!-- end of wrapper -->
+
+<div id="tooplate_footer_wrapper">
+    <div id="tooplate_footer">
+    
+        Copyright © 2016 Road Networks LLC.</div> <!-- end of tooplate_footer -->
+</div>
+</form>
+</body>
+</html>
+<%--
+<body>
+    <form id="form1" runat="server">
+        <div style="z-index: 104; left: 583px; width: 365px; position: absolute; top: 100px;
+            height: 25px">
+            &nbsp;
+        </div>
+        <table cellpadding="0" cellspacing="0" style="left: 0px; width: 102%; color: white;
+            position: absolute; top: -5px; height: 99px; background-color: #3399cc; z-index: 100;">
+            <tr>
+                <td style="border-left-color: #efefef; border-bottom-color: #efefef; border-top-color: #efefef;
+                    height: 87px; background-color: transparent; border-right-color: #efefef">
+                    <div>
+                        <p align="center" class="MsoNormalCxSpFirst" style="text-align: center">
+                            <b style="mso-bidi-font-weight: normal"><span style="line-height: 115%; mso-bidi-font-size: 11.0pt">
+                                <span style="font-size: 24pt"></span></span></b>&nbsp;</p>
+                        <p align="center" class="MsoNormalCxSpFirst" 
+                            style="text-align: center; width: 975px; margin-top: 23px;">
+                            <b style="mso-bidi-font-weight: normal"><span style="line-height: 115%; mso-bidi-font-size: 11.0pt">
+                                <span style="font-size: 24pt">Routing systems to extend the driving range of vehicles</span></span></b><b style="mso-bidi-font-weight: normal"><span style="font-size: 24pt; line-height: 115%;
+                                mso-bidi-font-size: 11.0pt"></span></b></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div style="z-index: 105; left: 19px; width: 100px; position: absolute; top: 133px;
+            height: 35px">
+            &nbsp;<asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.65em"
+                PathSeparator=">" Width="464px">
+                <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                <CurrentNodeStyle ForeColor="#333333" />
+                <NodeStyle Font-Bold="True" ForeColor="#990000" />
+                <RootNodeStyle Font-Bold="True" ForeColor="#FF8000" />
+            </asp:SiteMapPath>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        </div>
+    </div>
+    </form>
+</body>
+</html>--%>

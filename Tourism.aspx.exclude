@@ -1,0 +1,7 @@
+<%@ Page Language="C#" MasterPageFile="~/FuzzyControl.master" AutoEventWireup="true" CodeFile="Tourism.aspx.cs" Inherits="_Default" Title="Untitled Page" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <asp:ImageMap ID="ImageMap1" runat="server" ImageUrl="~/Images/untitled.JPG" 
+        OnClick="ImageMap1_Click1" Width="1016px">
+    </asp:ImageMap>
+</asp:Content>
+

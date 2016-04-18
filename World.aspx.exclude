@@ -1,0 +1,49 @@
+<%@ Page Language="C#" MasterPageFile="~/FuzzyControl.master" AutoEventWireup="true" CodeFile="World.aspx.cs" Inherits="_Default" Title="Untitled Page" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <asp:ImageMap ID="ImageMap1" runat="server" Height="555px" ImageUrl="~/Images/india-map.jpg"
+        Style="z-index: 100; left: 3px; position: absolute; top: 40px" Width="553px">
+    </asp:ImageMap>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="Contentplaceholder2" Runat="Server">
+    There are 28 states and 7 Union territories in the country.
+    <br />
+    <br />
+    Andhra Pradesh &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Maharashtra<br />
+    Arunachal Pradesh &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Manipur<br />
+    Assam &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; Meghalaya<br />
+    Bihar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Mizoram<br />
+    Chhattisgarh &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp;Nagaland<br />
+    Goa &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Orissa<br />
+    Gujarat &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp;&nbsp; &nbsp; Punjab<br />
+    Haryana &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp;&nbsp; Rajasthan<br />
+    Himachal Pradesh &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sikkim<br />
+    Jammu and Kashmir &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Tamil Nadu<br />
+    Jharkhand &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp;&nbsp; &nbsp;Tripura<br />
+    Karnataka &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+    &nbsp;&nbsp; Uttarakhand<br />
+    Kerala &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; Uttar Pradesh<br />
+    Madhya Pradesh &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; West Bengal<br />
+    <br />
+    <h2>
+        Union Territories</h2>
+    <p>
+        Andaman and Nicobar Islands &nbsp; &nbsp; &nbsp;Chandigarh</p>
+    <p>
+        The Government of NCT of Delhi &nbsp; &nbsp; &nbsp; &nbsp;
+    </p>
+    <p>
+        Dadra and Nagar Haveli</p>
+    <p>
+        Daman and Diu Lakshadweep</p>
+    <p>
+        Puducherry</p>
+</asp:Content>
+
